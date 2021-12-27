@@ -1,0 +1,10 @@
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#formulaire {
+    padding: 1rem;
+    border-style: groove;
+    border-width: 5px;
+}

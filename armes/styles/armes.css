@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mg17 {
+    position: relative;
+    text-align: center;
+}
+
+#mg17::after {
+    content: 'Source  : Wikimédia';
+    bottom: 0;
+    position: absolute;
+    height: 1rem;
+}
+
+.sourceConstructeur {
+    position: relative;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.sourceConstructeur::after {
+    content: "source : document constructeur";
+    bottom: 0;
+    position: absolute;
+    height: 1rem;
+}
+
+.tableMG151 {
+    border: solid 1px black;
+    width: 60%;
+}
+
+.tableMG151 td {
+    border: solid 1px black;
+    padding: 0.5rem;
+}
+
+.wikipedia {
+    position: relative;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.wikipedia::after {
+    content: 'Source  : Wikipédia';
+    bottom: -1.5rem;
+    position: absolute;
+    height: 1rem;
+}

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*Déclaration des variables couleurs */
+
+:root {
+    --Menu_Idle: #ccc7c7;
+    --Menu_Active: #eaeaea;
+    --Police_Text: black;
+    --LineColor: #b9aaaa;
+    --FooterColor: #ccc7c7;
+    --BackGroundBody: #e2e2e2;
+    --NotamColor: #001664;
+}
+
+
+/*Document général */
+
+body {
+    font-family: arial, sans-serif;
+    color: var(--Police_Text);
+    background-color: var(--BackGroundBody);
+}
+
+.conteneur {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding-bottom: 1.5rem;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.notam {
+    font-style: italic;
+    color: var(--NotamColor);
+}

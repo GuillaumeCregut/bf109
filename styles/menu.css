@@ -1,0 +1,147 @@
+/*Menu et sous menus */
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    color: var(--Police_Text);
+    padding: 0.5em;
+    display: inline-block;
+    margin: 0.1em;
+}
+
+.menu {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu>li {
+    position: relative;
+    /* padding-right:  20px;*/
+    background-color: var(--Menu_Idle);
+    transition: .3s;
+    border: solid 1px black;
+}
+
+.menu>li:hover .sousmenu {
+    display: block;
+}
+
+.menu>li:hover {
+    background-color: var(--Menu_Active);
+}
+
+.invisible {
+    display: none;
+}
+
+
+/*Sous menus */
+
+.sousmenu {
+    display: none;
+    z-index: 2;
+    position: absolute;
+    top: 102%;
+    left: 0px;
+    background-color: white;
+    list-style: none;
+    align-items: center;
+}
+
+.menulien {
+    cursor: default;
+}
+
+.sousmenu>li>a {
+    text-decoration: none;
+    display: block;
+    background-color: var(--Menu_Idle);
+    padding: 0.5em;
+    white-space: nowrap;
+    transition: .3s;
+    width: 100%;
+    color: var(--Police_Text);
+}
+
+.sousmenu>li>a:hover {
+    background-color: var(--Menu_Active);
+    border-style: none;
+}
+
+
+/*fil ariane */
+
+.ariane_cont {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.ariane_cont ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.ariane_cont ul li {
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.ariane_cont ul li::before {
+    content: ">";
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ariane_cont ul li:first-child::before {
+    content: "";
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ariane_cont::after {
+    content: "";
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    background-color: var( --LineColor);
+    width: 100%;
+    height: 2px;
+}
+
+
+/*Menu footer */
+
+footer .conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: var(--FooterColor);
+    padding-left: 1rem;
+}
+
+.menu_footer {
+    list-style-type: none;
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.menu_footer a {
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 0.1rem;
+    color: var(--Police_Text);
+}
+
+.menu_footer a:hover {
+    background-color: var(--Menu_Active);
+}

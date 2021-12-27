@@ -1,0 +1,32 @@
+main img {
+    vertical-align: middle;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+
+.biblio li {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    margin-bottom: auto;
+    display: inline-block;
+    height: inherit;
+    margin-top: auto;
+    padding-left: 0.8em;
+}

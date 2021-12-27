@@ -1,0 +1,142 @@
+.retrait {
+    margin-left: 2.1rem;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.3rem;
+    font-size: 1.5rem;
+}
+
+.p_espace {
+    margin-top: 1.5rem;
+}
+
+.sourceConstructeur {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.sourceConstructeur::after {
+    content: "source : document constructeur";
+    bottom: 0;
+    position: absolute;
+    height: 1rem;
+    left: 0px;
+    font-size: smaller;
+}
+
+.centree {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#explications {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.wiki {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.wiki::after {
+    content: "source : wikipedia";
+    bottom: 0;
+    position: absolute;
+    height: 1rem;
+    font-size: smaller;
+    left: 50%;
+}
+
+.cote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.asisbiz {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.asisbiz::after {
+    content: "source : Asisbiz";
+    bottom: 10px;
+    position: absolute;
+    height: 1rem;
+    left: 100px;
+    font-size: smaller;
+}
+
+.asisbiz2 {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.asisbiz2::after {
+    content: "source : Asisbiz";
+    bottom: 10px;
+    position: absolute;
+    height: 1rem;
+    left: 250px;
+    font-size: smaller;
+}
+
+.carac {
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    text-decoration: underline;
+}
+
+.sourceConstructeur2 {
+    position: relative;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.sourceConstructeur2::after {
+    content: "source : document constructeur";
+    bottom: 0;
+    position: absolute;
+    height: 1rem;
+    left: 200px;
+    font-size: smaller;
+}
+
+.cadre {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadre1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.cadre2 {
+    align-self: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
